@@ -24,9 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./screenshots/Mobile.png)
 ![](./screenshots/Mobile-menu.png)
 ![](./screenshots/Desktop.png)
+=======
+![]("./screenshots/Mobile.png")
+![]("./screenshots/Mobile-menu.png")
+![]("./screenshots/Desktop.png")
+>>>>>>> 282a69df6a4b6a285de5a4b42b2ee124e144ef32
 
 ### Links
 
