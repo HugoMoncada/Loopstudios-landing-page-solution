@@ -1,0 +1,16 @@
+.button{
+    background-color: transparent;
+    border: 1.5px solid black;
+    color: black;
+    cursor: pointer;
+    display: block;
+    font-family: 'Ariata', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 160px;
+}

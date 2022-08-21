@@ -1,0 +1,61 @@
+header{
+    align-items: center;
+    background-image: url("/images/mobile/image-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 650px;
+    margin-bottom: 96px;
+}
+
+.header__box{
+    border: 2px solid white;
+    margin: 0 auto;
+    max-width: 87.2%;
+    padding: 25px 23px 18px;
+}
+
+.header__title{
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:800px) {
+    .header__title{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    header{
+        background-image: url("/images/desktop/image-hero.jpg");
+        position: relative;
+    }
+
+    header::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, .3);
+        z-index: 0;
+    }
+
+    .header__box{
+        border: 2px solid white;
+        margin: 0 0;
+        margin-left: 11.3%;
+        max-width: 45.2%;
+        padding: 30px 30px 26px;
+        z-index: 300;
+    }
+
+    .header__title{
+        font-size: 7.2rem;
+        text-align: left;
+        line-height: 75px;
+    }
+}

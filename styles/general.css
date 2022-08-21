@@ -1,0 +1,53 @@
+
+/** ============== global style ================ */
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* remove blue highlighting  */
+::selection {
+    color: none;
+    background: rgba(0, 0, 255, 0.1);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    border-style: none;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html,body{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
